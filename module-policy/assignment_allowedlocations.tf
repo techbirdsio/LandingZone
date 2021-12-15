@@ -16,8 +16,7 @@ METADATA
   parameters = <<PARAMETERS
 {
   "allowedLocations": {
-    "value": [ "West Europe", 
-               "East US 2", 
+    "value": [ "East US 2", 
                "East US", 
                "West US 2", 
                "West US" ]
