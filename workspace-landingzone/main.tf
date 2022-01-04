@@ -1,3 +1,18 @@
+# defining the providers to be used for provisioining resources.
+terraform {
+  required_providers {
+    azurerm = {
+      source  = "hashicorp/azurerm"
+      version = ">= 2.0"
+    }
+    azuread = {
+      source  = "hashicorp/azuread"
+      version = ">=2.0"
+    }
+  }
+}
+
+# Calling module for creation of standard naming convention of resources.
 module "naming_module" {
   source                  = "../module-naming-convention"
   location                = var.location
