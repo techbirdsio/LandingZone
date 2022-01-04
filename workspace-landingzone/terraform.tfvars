@@ -1,4 +1,4 @@
-location                         = "East US 2"
+location                         = ""
 rg_offset                        = 0
 environment_short_name           = "LZ"
 landing_Zone_short_name          = "Dev-LZ"

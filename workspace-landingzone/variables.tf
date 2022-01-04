@@ -1,22 +1,27 @@
 variable "subscription_id" {
   type = string
+  description = "This is subscription id of where resources will be created"
   sensitive = true
 }
 variable "tenant_id" {
   type = string
+  description = "This is tenant id of where our subscriptions will be."
   sensitive = true
 }
 variable "client_id" {
   type = string
+  description = "This is client id of service principal which will be used to authenticate on Azure"
   sensitive = true
 }
 variable "client_secret" {
   type = string
+  description = "This is client secret of service principal which will be used to authenticate on Azure"
   sensitive = true
 }
 
 variable "location" {
   type = string
+  description = "This is geographical locaton on azure datacenter where resources will be created."
 }
 
 variable "rg_offset" {
